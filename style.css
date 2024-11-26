@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --cor-principal: #ff0000;
+    --cor-secundaria: #2988f5;
+    --cor-destaque: #b518d4;
+
+}
+
+body {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+h1, h2, h5 {
+
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+
+    color: var(--cor-destaque);
+}
